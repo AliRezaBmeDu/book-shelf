@@ -2,16 +2,23 @@
   margin: auto;
 }
 
-.singlebook {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 20px;
-}
-
 .books {
   margin-bottom: 2rem;
 }
 
-h1 {
- text-align: center;
+.singlebook {
+  margin-bottom: 2rem;
 }
+
+.remove {
+  margin-top: 1rem;
+  box-shadow: 1pt;
+}
+
+#add {
+  margin-top: 1rem;
+}
+
+
+
+
