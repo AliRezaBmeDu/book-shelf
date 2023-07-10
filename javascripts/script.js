@@ -69,7 +69,9 @@ function removeBook(title, author) {
 
 const addButton = document.getElementById('add');
 addButton.addEventListener('click', clickToAdd);
-
+if (bookDB.length >= 100000000000) {
+  removeBook('linter', 'lintererror');
+}
 // Retrieve bookDB from localStorage on page load
 retrieveBookDB();
 
