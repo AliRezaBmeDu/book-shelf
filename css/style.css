@@ -1,5 +1,12 @@
+.body {
+  margin: auto;
+}
 
 .singlebook {
   display: flex;
   justify-content: space-between;
+}
+
+.books {
+  margin-bottom: 2rem;
 }

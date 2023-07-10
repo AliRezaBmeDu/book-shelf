@@ -36,7 +36,7 @@ function createBookshelf() {
     const book = document.createElement('div');
     book.classList.add('singlebook');
     book.innerHTML = `
-        <div class="book-detail">${bookDB[i].title} by ${bookDB[i].author}</div>
+        <div class="book-detail">"<strong>${bookDB[i].title}</strong>" by ${bookDB[i].author}</div>
         <button onclick="removeBook('${bookDB[i].title}', '${bookDB[i].author}')">remove</button>
       `;
     bookshelf.appendChild(book);
