@@ -1,0 +1,19 @@
+.body {
+  margin: auto;
+}
+
+.books {
+  margin-bottom: 2rem;
+}
+
+.singlebook {
+  margin-bottom: 2rem;
+}
+
+.remove {
+  margin-top: 1rem;
+}
+
+#add {
+  margin-top: 1rem;
+}
