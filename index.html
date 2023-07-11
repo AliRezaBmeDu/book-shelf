@@ -10,19 +10,21 @@
     <body>
         <header>
             <nav>
-                <div>BookShelf</div>
+                <div class="logo">BookShelf</div>
                 <div>
                     <ul>
-                        <a><li>List</li></a>
-                        <a><li>Add</li></a>
-                        <a><li>Contact</li></a>
+                        <li class="listSection">List</li>
+                        <li class="addSection">Add</li>
+                        <li class="contactSection">Contact</li>
                     </ul>
                 </div>
             </nav>
             <div class="clock">Clock</div>
         </header>
-        <h1>The Books We Have</h1>
-        <div class="books" id="books">
+        <div class="list">
+            <h1>The Books We Have</h1>
+            <div class="books" id="books">
+            </div>
         </div>
         
         <div class="form">
@@ -47,5 +49,6 @@
             </ul>
         </div>
         <script src="./javascripts/refractor.js"></script>
+        <sctipt src="./javascripts/navigate.js"></sctipt>
     </body>
 </html>
