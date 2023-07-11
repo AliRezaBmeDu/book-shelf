@@ -39,9 +39,9 @@ class BookDB {
       const bookElement = document.createElement('div');
       bookElement.classList.add('singlebook');
       bookElement.innerHTML = `
-          <div class="book-detail">"<strong>${book.title}</strong>" by ${book.author}</div>
+      <hr>
+          <div class="book-detail">"<strong>${book.title}</strong>"  <strong>by</strong> ${book.author}</div>
           <button class="remove" onclick="bookDB.removeBook('${book.title}', '${book.author}')">remove</button>
-          <hr>
           `;
       bookshelf.appendChild(bookElement);
     });

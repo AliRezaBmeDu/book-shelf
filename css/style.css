@@ -2,8 +2,15 @@
   margin: auto;
 }
 
+h1 {
+  text-align: center;
+}
+
 .books {
   margin-bottom: 2rem;
+  border: 2px solid;
+  width: 52%;
+  margin-left: 24%;
 }
 
 .singlebook {
@@ -11,9 +18,14 @@
 }
 
 .remove {
-  margin-top: 1rem;
+  margin-top: -1rem;
+  margin-left: 90%;
 }
 
 #add {
   margin-top: 1rem;
+}
+
+.form {
+  margin-left: 44%;
 }
