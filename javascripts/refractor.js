@@ -41,14 +41,19 @@ class BookDB {
       bookElement.innerHTML = `
           <div class="book-detail">"<strong>${book.title}</strong>" by ${book.author}</div>
           <button class="remove" onclick="bookDB.removeBook('${book.title}', '${book.author}')">remove</button>
-        `;
+          <hr>
+          `;
       bookshelf.appendChild(bookElement);
     });
   }
 
   clickToAdd() {
-    const newTitle = document.getElementById('new-title').value;
-    const newAuthor = document.getElementById('new-author').value;
+    const title = document.getElementById('new-title');
+    const author = document.getElementById('new-author');
+
+    const newTitle = title.value;
+    const newAuthor = author.value;
+
     if (newTitle && newAuthor) {
       const newBook = { title: newTitle, author: newAuthor };
       this.books.push(newBook);
