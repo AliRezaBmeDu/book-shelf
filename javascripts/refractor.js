@@ -1,6 +1,23 @@
 class BookDB {
     constructor() {
-      this.books = [];
+      this.books = [
+        {
+            title: 'Hamlet',
+            author: 'Shakespeare',
+          },
+          {
+            title: 'Deception Point',
+            author: 'Dan Brown',
+          },
+          {
+            title: 'The Lord of the Rings',
+            author: 'J.R.R. Tolkien',
+          },
+          {
+            title: 'The Song of Ice and Fire',
+            author: 'George R.R. Martin',
+          },
+      ]; //initializing the book database
     }
   
     retrieveFromStorage() {
