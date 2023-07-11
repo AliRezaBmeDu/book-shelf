@@ -1,3 +1,6 @@
+body {
+    margin: auto;
+}
 
 header nav {
     display: flex;
@@ -10,6 +13,12 @@ header nav {
     list-style-type: none;
     display: flex;
     gap: 2rem;
+  }
+
+  .clock {
+    margin-right: 5rem;
+    margin-top: 0.5rem;
+    float: right;
   }
 
   h1 {
@@ -59,6 +68,9 @@ header nav {
     justify-content: center;
     align-items: center;
     margin-bottom: 2rem;
+    background-color: yellow;
+    width: 30%;
+    margin-inline: 35%;
   }
 
   .new-input {
@@ -75,8 +87,26 @@ header nav {
     margin-bottom: 1rem;
   }
 
+  input{
+    box-sizing: border-box;
+    width: 25em;
+    height: 2.4rem;
+    padding-inline-start: 1rem;
+    font-size: 1rem;
+  }
+
+  input::placeholder{
+    font-size: 1rem;
+  }
+
   #add {
-    display: flex;
+    width: 20%;
+    height: 2rem;
+    font-size: 1rem;
+    align-self: flex-end;
+    margin-right: 1.8rem;
+    box-sizing: border-box;
+    box-shadow: 2px 3px;
   }
 
   .contact {
