@@ -1,19 +1,46 @@
-.body {
+/* .body {
   margin: auto;
+} */
+
+h1 {
+  text-align: center;
 }
 
 .books {
   margin-bottom: 2rem;
+  border: 2px solid;
+  width: 52%;
+  margin-left: 24%;
+  padding: 1rem;
 }
 
 .singlebook {
-  margin-bottom: 2rem;
+  margin-bottom: 0.5rem;
+  background-color: #f8f6f6;
+}
+
+.singlebook:nth-of-type(2n-1) {
+  background-color: lightgrey;
 }
 
 .remove {
-  margin-top: 1rem;
+  margin-top: -1rem;
+  margin-left: 91%;
+  box-sizing: border-box;
+  border-radius: 0;
+  border: solid 1px;
+  box-shadow: 2px 2px;
 }
 
 #add {
   margin-top: 1rem;
+  box-sizing: border-box;
+  border: solid 1px;
+  box-shadow: 2px 2px;
+  position: relative;
+  left: 8rem;
+}
+
+.form {
+  margin-left: 44%;
 }
