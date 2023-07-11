@@ -73,6 +73,10 @@ header nav {
     margin-inline: 35%;
   }
 
+  .form h2{
+    font-size: 2rem;
+  }
+
   .new-input {
     display: flex;
     flex-direction: column;
@@ -117,6 +121,15 @@ header nav {
     margin-bottom: 20px;
   }
 
+  .contact h2{
+    font-size: 2rem;
+    text-decoration: underline;
+  }
+  .contact h3,h4 {
+    font-size: 1.5rem;
+    margin-top: -0.6rem;
+  }
+
   .contact ul {
     list-style-type: none;
     padding: 0;
@@ -127,6 +140,7 @@ header nav {
   .contact li {
     display: flex;
     align-items: center;
+    font-size: 1.1rem;
   }
 
   .contact li p {
