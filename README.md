@@ -26,7 +26,7 @@
 
 # 📖 Book-Shelf <a name="about-project"></a>
 
-**Conference-Capstone** aims to develop a responsive web page dedicated to a bookstore.
+**Book-Shelf** aims to develop a responsive web page dedicated to a bookstore.
 
 ## 🛠 Built With <a name="built-with"></a>
 
