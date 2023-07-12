@@ -16,22 +16,18 @@ function showSection(sectionName) {
   const formDiv = document.getElementById('form');
   const contactDiv = document.querySelector('.contact');
 
-  header.classList.add('hide-seek');
   listDiv.classList.add('hide-seek');
   formDiv.classList.add('hide-seek');
   contactDiv.classList.add('hide-seek');
 
   switch (sectionName) {
     case 'list':
-      header.classList.remove('hide-seek');
       listDiv.classList.remove('hide-seek');
       break;
     case 'form':
-      header.classList.remove('hide-seek');
       formDiv.classList.remove('hide-seek');
       break;
     case 'contact':
-      header.classList.remove('hide-seek');
       contactDiv.classList.remove('hide-seek');
       break;
     default:

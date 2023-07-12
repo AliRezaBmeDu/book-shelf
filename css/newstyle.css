@@ -81,9 +81,9 @@ header nav {
     justify-content: center;
     align-items: center;
     margin-bottom: 2rem;
-    background-color: yellow;
     width: 30%;
     margin-inline: 35%;
+    margin-top: 5rem;
   }
 
   .form h2{
@@ -132,6 +132,7 @@ header nav {
     justify-content: center;
     align-items: center;
     margin-bottom: 20px;
+    margin-top: 5rem;
   }
 
   .contact h2{
