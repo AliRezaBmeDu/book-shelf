@@ -1,178 +1,176 @@
 body {
-    margin: auto;
+  margin: auto;
 }
 
-.logo{
-    margin-top: 0.8rem;
-    font-size: 1.5rem;
-    font-family: Brush Script MT, Brush Script Std, cursive, sans-serif;
+.logo {
+  margin-top: 0.8rem;
+  font-size: 1.5rem;
+  font-family: Brush Script MT, Brush Script Std, cursive, sans-serif;
 }
 
 header nav {
-    display: flex;
-    justify-content: space-between;
-    padding-inline: 5rem;
-    background-color: rgb(169, 227, 241);
-  }
-  
-  nav ul {
-    list-style-type: none;
-    display: flex;
-    gap: 2rem;
-  }
+  display: flex;
+  justify-content: space-between;
+  padding-inline: 5rem;
+  background-color: rgb(183, 197, 243);
+}
 
-  nav ul li {
-    font-size: 1.2rem;
-    margin-left: 2rem;
-  }
+nav ul {
+  list-style-type: none;
+  display: flex;
+  gap: 2rem;
+}
 
-  .clock {
-    margin-right: 5rem;
-    margin-top: 0.5rem;
-    float: right;
-  }
+nav ul li {
+  font-size: 1.2rem;
+  margin-left: 2rem;
+}
 
-  h1 {
-    text-align: center;
-    margin: 20px 0;
-    font-size: 2.5rem;
-  }
+.clock {
+  margin-right: 5rem;
+  margin-top: 0.5rem;
+  float: right;
+}
 
-  .books {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 20px;
-    margin: auto;
-    width: 80%;
-    padding: 2rem;
-    box-sizing: border-box;
-    border: solid 1px black;
-  }
+h1 {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 2.5rem;
+}
 
-  .singlebook {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    height: 1.3rem;
-    padding: 0.5rem;
-    padding-inline: 1rem;
-    margin-bottom: 0.5rem;
-    background-color: #f8f6f6;
-    font-size: 1.2rem;
-  }
-  
-  .singlebook:nth-of-type(2n+1) {
-    background-color: lightgrey;
-  }
+.books {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 80%;
+  padding: 2rem;
+  box-sizing: border-box;
+  border: solid 1px black;
+}
 
+.singlebook {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 1.3rem;
+  padding: 0.5rem;
+  padding-inline: 1rem;
+  margin-bottom: 0.5rem;
+  background-color: #f8f6f6;
+  font-size: 1.2rem;
+}
 
-  .remove {
-    box-sizing: border-box;
-    box-shadow: 2px 2px;
-    font-size: 1rem;
-    height: 1.5rem;
-  }
+.singlebook:nth-of-type(2n+1) {
+  background-color: lightgrey;
+}
 
-  .form {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 2rem;
-    width: 30%;
-    margin-inline: 35%;
-    background-color: yellow;
-  }
+.remove {
+  box-sizing: border-box;
+  box-shadow: 2px 2px;
+  font-size: 1rem;
+  height: 1.5rem;
+}
 
-  .form h2{
-    font-size: 2.5rem;
-  }
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+  width: 30%;
+  margin-inline: 35%;
+  background-color: yellow;
+}
 
-  .new-input {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 10px;
-    gap: 1rem;
-  }
+.form h2 {
+  font-size: 2.5rem;
+}
 
-  #new-author{
-    margin-top: -3rem;
-    margin-bottom: 1rem;
-  }
+.new-input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  gap: 1rem;
+}
 
-  input{
-    box-sizing: border-box;
-    width: 25em;
-    height: 2.4rem;
-    padding-inline-start: 1rem;
-    font-size: 1rem;
-  }
+#new-author {
+  margin-top: -3rem;
+  margin-bottom: 1rem;
+}
 
-  input::placeholder{
-    font-size: 1rem;
-  }
+input {
+  box-sizing: border-box;
+  width: 25em;
+  height: 2.4rem;
+  padding-inline-start: 1rem;
+  font-size: 1rem;
+}
 
-  #add {
-    width: 20%;
-    height: 2rem;
-    font-size: 1rem;
-    align-self: flex-end;
-    margin-right: 1.8rem;
-    box-sizing: border-box;
-    box-shadow: 2px 3px;
-  }
+input::placeholder {
+  font-size: 1rem;
+}
 
-  .contact {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 20px;
-  }
+#add {
+  width: 20%;
+  height: 2rem;
+  font-size: 1rem;
+  align-self: flex-end;
+  margin-right: 1.8rem;
+  box-sizing: border-box;
+  box-shadow: 2px 3px;
+}
 
-  .contact h2{
-    font-size: 2.5rem;
-    text-decoration: underline;
-  }
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
 
-  .contact h3,h4 {
-    font-size: 1.5rem;
-    margin-top: -0.6rem;
-  }
+.contact h2 {
+  font-size: 2.5rem;
+  text-decoration: underline;
+}
 
-  .contact ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    text-align: left;
-  }
+.contact h3,
+h4 {
+  font-size: 1.5rem;
+  margin-top: -0.6rem;
+}
 
-  .contact li {
-    display: flex;
-    align-items: center;
-    font-size: 1.1rem;
-  }
+.contact ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+}
 
-  .contact li p {
-    margin: 0;
-    padding-left: 5px;
-  }
+.contact li {
+  display: flex;
+  align-items: center;
+  font-size: 1.1rem;
+}
 
-  .hide-seek {
-    display: none !important;
-  }
+.contact li p {
+  margin: 0;
+  padding-left: 5px;
+}
 
+.hide-seek {
+  display: none !important;
+}
 
-  nav li a:hover {
-    background-color: blue;
-    color:white;
-  }
+nav li a:hover {
+  background-color: blue;
+  color: white;
+}
 
-  nav li a:active {
-    background-color: rgb(141, 141, 243);
-    color:white;
-  }
+nav li a:active {
+  background-color: rgb(141, 141, 243);
+  color: white;
+}

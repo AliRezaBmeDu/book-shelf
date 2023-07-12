@@ -1,11 +1,10 @@
 const clock = document.querySelector('.clock');
 function updateTime() {
-  var today = new Date();
-  var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
-  var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
-  var dateTime = 'today: ' + date+' '+'time: '+ time;
-  clock.innerHTML =  dateTime;
+  const today = new Date();
+  const time = `${today.getHours()}:${today.getMinutes()}:${today.getSeconds()}`;
+  const date = `${today.getFullYear()}-${today.getMonth() + 1}-${today.getDate()}`;
+  clock.innerHTML = `today: ${date}, time: ${time}`;
 }
 
-updateTime()
-setInterval(updateTime, 1000)
+updateTime();
+setInterval(updateTime, 1000);

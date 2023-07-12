@@ -25,7 +25,6 @@ nav ul li {
   float: right;
 }
 
-
 h1 {
   text-align: center;
 }
@@ -69,14 +68,15 @@ h1 {
   margin-left: 44%;
 }
 
-.contact{
+.contact {
   margin: auto;
 }
-.contact h3,h4{
+
+.contact h3,
+h4 {
   text-align: center;
 }
 
-.contact ul{
+.contact ul {
   margin: auto;
 }
-

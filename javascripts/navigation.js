@@ -1,14 +1,6 @@
-document.addEventListener('DOMContentLoaded', () => {
-  const listBtn = document.querySelector('.list-section');
-  const addBtn = document.querySelector('.add-section');
-  const contactBtn = document.querySelector('.contact-section');
-
-  listBtn.addEventListener('click', () => showSection('list'));
-  addBtn.addEventListener('click', () => showSection('form'));
-  contactBtn.addEventListener('click', () => showSection('contact'));
-
-  showSection('list');
-});
+const listBtn = document.querySelector('.list-section');
+const addBtn = document.querySelector('.add-section');
+const contactBtn = document.querySelector('.contact-section');
 
 function showSection(sectionName) {
   const listDiv = document.querySelector('.list');
@@ -36,3 +28,11 @@ function showSection(sectionName) {
       break;
   }
 }
+
+document.addEventListener('DOMContentLoaded', () => {
+  listBtn.addEventListener('click', () => showSection('list'));
+  addBtn.addEventListener('click', () => showSection('form'));
+  contactBtn.addEventListener('click', () => showSection('contact'));
+
+  showSection('list');
+});
