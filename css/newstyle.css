@@ -36,6 +36,7 @@ h1 {
   text-align: center;
   margin: 20px 0;
   font-size: 2.5rem;
+  margin-top: 5rem;
 }
 
 .books {
@@ -81,6 +82,7 @@ h1 {
   margin-bottom: 2rem;
   width: 30%;
   margin-inline: 35%;
+  margin-top: 5rem;
 }
 
 .form h2 {
@@ -129,6 +131,7 @@ input::placeholder {
   justify-content: center;
   align-items: center;
   margin-bottom: 20px;
+  margin-top: 5rem;
 }
 
 .contact h2 {
@@ -177,13 +180,15 @@ nav li a:active {
 footer {
 border-top: 2px solid;
 margin-top: 183px;
-background-color: rgb(183, 197, 243);
+background-color: rgb(223, 228, 247);
 }
 
 footer p{
+  text-align: center;
   margin-left: 40px; 
-  font-size: 1.5rem;
-  font-family: Brush Script MT, Brush Script Std, cursive, sans-serif;
+  font-size: 1rem;
+  font-family: 'Times New Roman', Times, serif, sans-serif;
+  font-style: italic;
   margin-bottom: 0px;
  }
  
