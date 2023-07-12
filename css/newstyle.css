@@ -45,7 +45,7 @@ header nav {
     align-items: center;
     margin-bottom: 20px;
     margin: auto;
-    width: 90%;
+    width: 80%;
     padding: 2rem;
     box-sizing: border-box;
     border: solid 1px black;
@@ -83,7 +83,7 @@ header nav {
     margin-bottom: 2rem;
     width: 30%;
     margin-inline: 35%;
-    margin-top: 5rem;
+    background-color: yellow;
   }
 
   .form h2{
@@ -132,13 +132,13 @@ header nav {
     justify-content: center;
     align-items: center;
     margin-bottom: 20px;
-    margin-top: 5rem;
   }
 
   .contact h2{
     font-size: 2.5rem;
     text-decoration: underline;
   }
+
   .contact h3,h4 {
     font-size: 1.5rem;
     margin-top: -0.6rem;
@@ -166,6 +166,13 @@ header nav {
     display: none !important;
   }
 
-  .button-back {
-    background-color: lightcoral;
+
+  nav li a:hover {
+    background-color: blue;
+    color:white;
+  }
+
+  nav li a:active {
+    background-color: rgb(141, 141, 243);
+    color:white;
   }

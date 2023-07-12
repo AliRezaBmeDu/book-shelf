@@ -1,17 +1,16 @@
 document.addEventListener('DOMContentLoaded', () => {
-  const listSection = document.querySelector('.list-section');
-  const addSection = document.querySelector('.add-section');
-  const contactSection = document.querySelector('.contact-section');
+  const listBtn = document.querySelector('.list-section');
+  const addBtn = document.querySelector('.add-section');
+  const contactBtn = document.querySelector('.contact-section');
 
-  listSection.addEventListener('click', () => showSection('list'));
-  addSection.addEventListener('click', () => showSection('form'));
-  contactSection.addEventListener('click', () => showSection('contact'));
+  listBtn.addEventListener('click', () => showSection('list'));
+  addBtn.addEventListener('click', () => showSection('form'));
+  contactBtn.addEventListener('click', () => showSection('contact'));
 
   showSection('list');
 });
 
 function showSection(sectionName) {
-  const header = document.querySelector('header');
   const listDiv = document.querySelector('.list');
   const formDiv = document.getElementById('form');
   const contactDiv = document.querySelector('.contact');
@@ -23,12 +22,15 @@ function showSection(sectionName) {
   switch (sectionName) {
     case 'list':
       listDiv.classList.remove('hide-seek');
+      listBtn.classList.add('button-back');
       break;
     case 'form':
       formDiv.classList.remove('hide-seek');
+      addBtn.classList.add('button-back');
       break;
     case 'contact':
       contactDiv.classList.remove('hide-seek');
+      contactBtn.classList.add('button-back');
       break;
     default:
       break;
