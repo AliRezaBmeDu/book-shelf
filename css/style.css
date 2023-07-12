@@ -1,6 +1,29 @@
-/* .body {
+.body {
   margin: auto;
-} */
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  padding-inline: 5rem;
+  background-color: lightgray;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  gap: 2rem;
+}
+
+nav ul li {
+  font-size: 1rem;
+}
+
+.clock {
+  margin-right: 5rem;
+  margin-top: 0.5rem;
+  float: right;
+}
 
 h1 {
   text-align: center;
@@ -9,8 +32,8 @@ h1 {
 .books {
   margin-bottom: 2rem;
   border: 2px solid;
-  width: 52%;
-  margin-left: 24%;
+  width: 60%;
+  margin-left: 20%;
   padding: 1rem;
 }
 
@@ -19,7 +42,7 @@ h1 {
   background-color: #f8f6f6;
 }
 
-.singlebook:nth-of-type(2n-1) {
+.singlebook:nth-of-type(2n+1) {
   background-color: lightgrey;
 }
 
@@ -43,4 +66,17 @@ h1 {
 
 .form {
   margin-left: 44%;
+}
+
+.contact {
+  margin: auto;
+}
+
+.contact h3,
+h4 {
+  text-align: center;
+}
+
+.contact ul {
+  margin: auto;
 }
