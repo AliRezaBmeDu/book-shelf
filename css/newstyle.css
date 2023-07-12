@@ -160,3 +160,11 @@ header nav {
     margin: 0;
     padding-left: 5px;
   }
+
+  .hide-seek {
+    display: none !important;
+  }
+
+  .button-back {
+    background-color: lightcoral;
+  }
