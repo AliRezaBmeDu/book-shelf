@@ -14,15 +14,12 @@ function showSection(sectionName) {
   switch (sectionName) {
     case 'list':
       listDiv.classList.remove('hide-seek');
-      listBtn.classList.add('button-back');
       break;
     case 'form':
       formDiv.classList.remove('hide-seek');
-      addBtn.classList.add('button-back');
       break;
     case 'contact':
       contactDiv.classList.remove('hide-seek');
-      contactBtn.classList.add('button-back');
       break;
     default:
       break;

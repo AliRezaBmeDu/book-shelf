@@ -158,6 +158,21 @@ h4 {
   font-size: 1.1rem;
 }
 
+footer {
+  border-top: 2px solid;
+  margin-top: 183px;
+  background-color: rgb(223, 228, 247);
+}
+
+footer p {
+  text-align: center;
+  margin-left: 40px;
+  font-size: 1rem;
+  font-family: 'Times New Roman', Times, serif, sans-serif;
+  font-style: italic;
+  margin-bottom: 0;
+}
+
 .contact li p {
   margin: 0;
   padding-left: 5px;
@@ -176,19 +191,3 @@ nav li a:active {
   background-color: rgb(141, 141, 243);
   color: white;
 }
-
-footer {
-border-top: 2px solid;
-margin-top: 183px;
-background-color: rgb(223, 228, 247);
-}
-
-footer p{
-  text-align: center;
-  margin-left: 40px; 
-  font-size: 1rem;
-  font-family: 'Times New Roman', Times, serif, sans-serif;
-  font-style: italic;
-  margin-bottom: 0px;
- }
- 
