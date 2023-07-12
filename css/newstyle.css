@@ -81,7 +81,6 @@ h1 {
   margin-bottom: 2rem;
   width: 30%;
   margin-inline: 35%;
-  background-color: yellow;
 }
 
 .form h2 {
@@ -174,3 +173,17 @@ nav li a:active {
   background-color: rgb(141, 141, 243);
   color: white;
 }
+
+footer {
+border-top: 2px solid;
+margin-top: 183px;
+background-color: rgb(183, 197, 243);
+}
+
+footer p{
+  margin-left: 40px; 
+  font-size: 1.5rem;
+  font-family: Brush Script MT, Brush Script Std, cursive, sans-serif;
+  margin-bottom: 0px;
+ }
+ 
